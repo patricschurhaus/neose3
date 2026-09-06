@@ -1,0 +1,23 @@
+# Este repositório é PÚBLICO e guarda apenas imagem.
+# Formatos de documento são bloqueados como rede de proteção: se alguém
+# arrastar uma planilha ou uma apresentação para cá por engano, o git ignora.
+
+*.xlsx
+*.xlsm
+*.xls
+*.pptx
+*.ppt
+*.docx
+*.doc
+*.pdf
+*.csv
+*.json
+*.vtt
+*.msg
+*.eml
+*.zip
+
+# ruído do sistema
+Thumbs.db
+desktop.ini
+.DS_Store
