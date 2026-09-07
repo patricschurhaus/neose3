@@ -19,7 +19,7 @@ não está sendo versionado, provavelmente é isso, e provavelmente está certo.
 
 | pasta | o que guarda |
 |---|---|
-| `produtos/` | os produtos de papelão ondulado |
+| `produtos/` | os produtos de papelão ondulado, **um arquivo por código do `codelist`** do simulador |
 | `bandeiras/` | bandeiras de estado |
 | `marca/` | logotipo Irani |
 | `concorrentes/` | logotipos de concorrentes, para quadros comparativos |
@@ -28,8 +28,24 @@ não está sendo versionado, provavelmente é isso, e provavelmente está certo.
 ## Como referenciar
 
 ```html
-<img src="https://raw.githubusercontent.com/patricschurhaus/neose3/main/produtos/maleta.png">
+<img src="https://raw.githubusercontent.com/patricschurhaus/neose3/main/produtos/ffg.png">
 ```
 
 Use nomes de arquivo em ASCII, sem espaço e sem acento: caractere fora do ASCII
 vira escape na URL e quebra em cliente de e-mail e visualizador de PDF.
+
+## Os quatro produtos usam o código do simulador
+
+O nome do arquivo é o **código do objeto** na aba `codelist` do simulador, não o
+nome comercial. Assim a imagem, a cor do produto no site e a variável da
+planilha se chamam a mesma coisa, e não existe tabela de-para para envelhecer.
+
+| arquivo | código | produto |
+|---|---|---|
+| `produtos/ffg.png` | `ffg` | caixa maleta — casemaker (*flexo folder gluer*) |
+| `produtos/rdc.png` | `rdc` | caixa de corte e vinco — *rotary die cutter* |
+| `produtos/shm.png` | `shm` | chapa para mercado |
+| `produtos/acs.png` | `acs` | acessórios |
+
+Trocar a arte de um produto é substituir o arquivo mantendo o nome: as páginas
+apontam para cá e recarregam sozinhas.
