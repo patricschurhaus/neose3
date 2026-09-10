@@ -1,7 +1,32 @@
-# Este repositório é PÚBLICO e guarda apenas imagem.
-# Formatos de documento são bloqueados como rede de proteção: se alguém
-# arrastar uma planilha ou uma apresentação para cá por engano, o git ignora.
+# Este repositório é PÚBLICO e serve apenas para hospedar imagem e vídeo.
+#
+# A pasta do projeto fica no SharePoint e contém material confidencial da
+# Irani. O site nunca é publicado na web. Por isso a regra aqui é de LISTA
+# FECHADA: por padrão o git ignora tudo, e só sobe o que estiver liberado
+# abaixo com "!". Se um arquivo novo não aparecer no "git status", é porque
+# a regra funcionou — libere de propósito, nunca por acidente.
 
+# ---------------------------------------------------------------
+# 1) Ignora tudo na raiz do projeto
+# ---------------------------------------------------------------
+/*
+
+# ---------------------------------------------------------------
+# 2) Libera apenas estas pastas de mídia e estes dois arquivos
+#    Para liberar uma pasta nova, acrescente uma linha "!/nome/"
+# ---------------------------------------------------------------
+!/.gitignore
+!/README.md
+!/bandeiras/
+!/concorrentes/
+!/layouts/
+!/marca/
+!/produtos/
+
+# ---------------------------------------------------------------
+# 3) Rede de proteção: formatos de documento nunca entram, nem
+#    mesmo dentro das pastas liberadas acima
+# ---------------------------------------------------------------
 *.xlsx
 *.xlsm
 *.xls
@@ -12,12 +37,32 @@
 *.pdf
 *.csv
 *.json
+*.txt
+*.md
+!README.md
 *.vtt
 *.msg
 *.eml
 *.zip
+*.rar
+*.7z
 
-# ruído do sistema
+# ---------------------------------------------------------------
+# 4) Segredos, nunca — ainda mais em repositório público
+# ---------------------------------------------------------------
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+
+# ---------------------------------------------------------------
+# 5) Ruído do sistema e do OneDrive/SharePoint
+# ---------------------------------------------------------------
 Thumbs.db
+ehthumbs.db
 desktop.ini
 .DS_Store
+~$*
+*.tmp
+.~lock.*
