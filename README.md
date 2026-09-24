@@ -22,7 +22,7 @@ não está sendo versionado, provavelmente é isso, e provavelmente está certo.
 | `produtos/` | os produtos de papelão ondulado, **um arquivo por código do `codelist`** do simulador |
 | `bandeiras/` | bandeiras de estado |
 | `marca/` | logotipo Irani |
-| `concorrentes/` | logotipos de concorrentes, para quadros comparativos |
+| `logos/` | logotipos de empresas do setor, **um arquivo por código de empresa** da base `PET-01` |
 | `fotos/` | fotografia de fábrica, papelão e paisagem industrial |
 
 ## Como referenciar
@@ -33,6 +33,27 @@ não está sendo versionado, provavelmente é isso, e provavelmente está certo.
 
 Use nomes de arquivo em ASCII, sem espaço e sem acento: caractere fora do ASCII
 vira escape na URL e quebra em cliente de e-mail e visualizador de PDF.
+
+## `logos/` usa o código de três letras da empresa
+
+Mesmo princípio dos produtos: **o nome do arquivo é a chave**, não o nome
+comercial. O código é o `emp` da aba `empresas` da base do setor — `KLA`,
+`MIT`, `BHS` — em maiúsculas, sempre `.png`.
+
+```
+logos/KLA.png    logos/MIT.png    logos/BHS.png
+```
+
+Assim nenhuma página precisa de tabela de-para: ela monta a URL a partir do
+código que já tem em mãos. Logo nova aparece sozinha nas páginas já publicadas,
+sem reempacotar nada — basta subir o arquivo com o nome certo.
+
+**Sempre `.png`.** A extensão faz parte do contrato: a página adivinha a URL e
+não tem como descobrir que um arquivo é `.svg`. Se você tem o vetor, guarde-o
+onde quiser e exporte um `.png` para cá.
+
+Se o arquivo não existir, a página desenha um bloco com a sigla — **falta de
+logo nunca vira buraco na tela.** Não há pressa em completar.
 
 ## Os quatro produtos usam o código do simulador
 
