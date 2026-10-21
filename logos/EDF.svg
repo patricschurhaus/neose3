@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Livello_1"
+   version="1.1"
+   viewBox="0 0 53.987 53.938"
+   sodipodi:docname="edf-logo.svg"
+   width="53.987"
+   height="53.938"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs18" />
+  <sodipodi:namedview
+     id="namedview18"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.5977375"
+     inkscape:cx="128.93232"
+     inkscape:cy="99.828666"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Livello_1" />
+  <!-- Generator: Adobe Illustrator 30.2.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 1)  -->
+  <g
+     id="g5"
+     transform="translate(0.057,-0.062)">
+    <path
+       d="m -0.057,37.138 v 7.712 h 10.778 c 9.006,-2.347 14.802,-5.078 18.49,-7.712 0,0 -29.268,0 -29.268,0 z"
+       fill="#44569f"
+       id="path1" />
+    <g
+       id="g4">
+      <path
+         d="M 45.882,37.138 H 37.547 C 35.966,39.15 33.14,42.072 26.961,44.85 h 12.742 c 4.072,-3.066 5.605,-5.844 6.179,-7.712 z"
+         fill="#ffffff"
+         id="path2" />
+      <path
+         d="m 37.643,37.138 h -8.431 c -3.688,2.587 -9.485,5.365 -18.49,7.712 h 16.239 c 6.179,-2.778 9.101,-5.748 10.682,-7.712 z"
+         fill="#009849"
+         id="path3" />
+      <path
+         d="m 51.966,37.138 h -6.084 c -0.575,1.868 -2.156,4.599 -6.179,7.712 h 7.569 c 1.964,-2.251 3.593,-4.838 4.742,-7.712 z"
+         fill="#e73748"
+         id="path4" />
+    </g>
+  </g>
+  <path
+     d="M 27.305,0 H 0 V 7.712 H 45.507 C 40.67,3.018 34.347,0.335 27.257,0 Z"
+     fill="#44569f"
+     id="path5" />
+  <path
+     d="m 0,16.67 h 51.926 c -1.15,-2.778 -2.73,-5.317 -4.694,-7.521 H 0 Z"
+     fill="#44569f"
+     id="path6" />
+  <path
+     d="m 0,53.938 h 25.532 c 7.569,-0.287 15.185,-2.539 20.359,-7.76 H 0 Z"
+     fill="#44569f"
+     id="path7" />
+  <path
+     d="M 35.784,26.25 H 53.987 C 53.891,23.424 53.412,20.645 52.502,18.107 H 30.754 c 2.826,1.677 4.79,4.694 5.03,8.143 z"
+     fill="#44569f"
+     id="path8" />
+  <path
+     d="m 35.784,27.687 c -0.24,3.401 -2.156,6.323 -4.886,8 H 52.55 c 0.862,-2.491 1.341,-5.221 1.437,-8 z"
+     fill="#44569f"
+     id="path9" />
+</svg>
